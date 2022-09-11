@@ -1,0 +1,7 @@
+.DS_Store
+.elm-spa
+.vscode
+elm-stuff
+node_modules
+dist
+public/dist

@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build:css": "npx -yes tailwindcss -o public/dist/index.css -i public/index.css",
+    "watch:css": "npx --yes tailwindcss -o public/dist/index.css -i public/index.css --watch",
+    "serve": "npx --yes elm-spa server",
+    "start": "npx --yes concurrently \"npm:serve\" \"npm:watch:css\" -c=bgGreen.black,bgCyan.black",
+    "clean": "npx --yes cash-rm -r -f public/dist"
+  }
+}
