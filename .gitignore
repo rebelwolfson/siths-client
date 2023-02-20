@@ -1,0 +1,12 @@
+.lein-repl-history
+target/
+checkouts/
+.nrepl-port
+generated
+debug
+*.iml
+.clj-kondo
+out
+.lsp
+figwheel_server.log
+.vscode
